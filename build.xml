@@ -34,5 +34,13 @@
             <classpath refid="PVPCraziness.classpath"/>
         </javac>
     </target>
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+    <target name="jar">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/PVPCraziness.jar" basedir="build/classes"/>
+    </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
 </project>
