@@ -1,0 +1,6 @@
+name: PVPCraziness
+main: me.dale3rulz5577.pvpcraziness.Main
+version: 1
+description: >
+             A crazy PVP plugin!
+depend: [SQLibrary]
