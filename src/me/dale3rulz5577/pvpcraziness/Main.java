@@ -31,7 +31,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
+//The Database code in this doesn't actually work, I will have a working solution soon
 public class Main extends JavaPlugin implements Listener {
 	String starter = ChatColor.GOLD + "[" + ChatColor.RED + "PVP"
 			+ ChatColor.GOLD + "] ";
